@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odev</title>
+    <link rel="stylesheet" href="assets/css//jobs.css" />
+    <script src="assets/js/jobs.js" defer></script>
+  </head>
+  <body>
+    <div class="header">
+      <img src="./assets/img/header-background.svg" class="background-image" />
+      <h1>devjobs</h1>
+      <label><img src="./assets/img/sun.svg" /><img src="" /><input class="switch" type="checkbox" /><img src="./assets/img/moon.svg" /></label>
+    </div>
+
+    <div class="container">
+      <form action="#">
+        <div class="inputClass">
+          <div class="filterClass">
+            <img src="assets/img/filter-img.png" />
+            <input type="text" placeholder="Filter by title, companies, expertise…" class="filterTitle" />
+          </div>
+          <div class="filter2">
+            <img src="assets/img/location-img.png" />
+            <select class="filterLocation">
+              <option value="">Filter by location</option>
+            </select>
+          </div>
+          <div class="searching">
+            <div class="checkboxContent">
+              <input type="checkbox" class="checkbox" id="checkbox" />
+              <label for="checkbox" class="checkboxLabel">Full Time <span class="onlyText">Only</span></label>
+            </div>
+            <button class="searchBtn">Search</button>
+            <button class="filterBtn"><img src="./assets/img/filter-logo.svg" /></button>
+            <button class="SearchBtn"><img src="./assets/img/search.svg" /></button>
+          </div>
+        </div>
+      </form>
+
+      <div class="cardContents"></div>
+    </div>
+    <div class="footer">
+      <div class="footerContents">
+        <div class="title">
+          <span class="spann">Senior Software Engineer</span>
+          <span class="text">So Digital Inc.</span>
+        </div>
+        <button class="Btn">Apply Now</button>
+      </div>
+    </div>
+
+    <div class="footerEnd">
+      <div class="footerTitleEnd">
+        <select class="filterEnd">
+          <option value="">Filter by location</option>
+        </select>
+        <div class="checkboxContent">
+          <input type="checkbox" class="checkboxModal" id="checkboxModal" />
+          <label for="checkboxModal" class="checkboxLabel">Full Time <span class="onlyText">Only</span></label>
+        </div>
+        <button class="searchBtnModal">Search</button>
+      </div>
+    </div>
+  </body>
+</html>
